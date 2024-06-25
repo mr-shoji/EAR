@@ -521,7 +521,7 @@ int plug_deserialize_remote(spank_t sp, plug_serialization_t *sd)
 	}
 
 	// Master
-	hostlist_t hostlist;
+	char * hostlist;
 	int from_sbatch;
 	int from_srun;
 	char *node;
